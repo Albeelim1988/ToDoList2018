@@ -12,5 +12,6 @@ namespace ToDoList2018
         public string TaskDescription { get; set; }
         public DateTime CreatedDate { get; set; }
         public DateTime ExpiryDate { get; set; }
+        public string Status { get; set; }
     }
 }
