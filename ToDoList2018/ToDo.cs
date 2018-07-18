@@ -14,10 +14,12 @@ namespace ToDoList2018
             TaskID = TID;
             TaskDescription = TaskDes;
             CreatedDate = DateTime.Now;
+            status = "Not Done";
         }
         public int TaskID { get; set; }
         public string TaskDescription { get; set; }
         public DateTime CreatedDate { get; set; }
         public DateTime DueDate { get; set; }
+        public string status { get; set; }
     }
 }
