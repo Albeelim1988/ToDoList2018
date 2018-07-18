@@ -19,14 +19,10 @@ namespace ToDoList2018
 
         private void newTaskBtn_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
+
             ToDo newToDoListItem = new ToDo();
 
             newToDoListItem.TaskID = "TASK" + DateTime.Now.ToString("YYYYMMDD-HHmmssfff");
-=======
-            /*//ToDo newToDoListItem = new ToDo();
-            newToDoListItem.TaskID = DateTime.Now.ToString("YYYYMMDD-HHmmssfff");
->>>>>>> 3abcb111ac3ddda55a2635581e555ee41e35cc30
             newToDoListItem.TaskDescription = textBox1.Text;
             newToDoListItem.CreatedDate = DateTime.Now;
             newToDoListItem.ExpiryDate = dateTimePicker1.Value;
@@ -71,7 +67,7 @@ namespace ToDoList2018
             }
         }
 
-<<<<<<< HEAD
+
         private void removeBtn_Click(object sender, EventArgs e)
         {
             if (listView1.SelectedItems.Count > 0)
@@ -83,9 +79,6 @@ namespace ToDoList2018
         private void Form1_Load(object sender, EventArgs e)
         {
             statusDrpDown.SelectedIndex = 0;
-=======
-            listView1.Items.Add()*/
->>>>>>> 3abcb111ac3ddda55a2635581e555ee41e35cc30
-        }
+        }       
     }
 }
