@@ -19,7 +19,7 @@ namespace ToDoList2018
 
         private void newTaskBtn_Click(object sender, EventArgs e)
         {
-            ToDo newToDoListItem = new ToDo();
+            /*//ToDo newToDoListItem = new ToDo();
             newToDoListItem.TaskID = DateTime.Now.ToString("YYYYMMDD-HHmmssfff");
             newToDoListItem.TaskDescription = textBox1.Text;
             newToDoListItem.CreatedDate = DateTime.Now;
@@ -30,7 +30,7 @@ namespace ToDoList2018
             listView1.Columns.Add("Task Created Date");
             listView1.Columns.Add("Task Expiry Date");
 
-            listView1.Items.Add()
+            listView1.Items.Add()*/
         }
     }
 }

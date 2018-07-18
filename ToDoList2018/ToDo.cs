@@ -6,11 +6,18 @@ using System.Threading.Tasks;
 
 namespace ToDoList2018
 {
-    class ToDo
+    public class ToDo
     {
-        public string TaskID { get; set; }
+
+        public ToDo(int TID, string TaskDes)
+        {
+            TaskID = TID;
+            TaskDescription = TaskDes;
+            CreatedDate = DateTime.Now;
+        }
+        public int TaskID { get; set; }
         public string TaskDescription { get; set; }
         public DateTime CreatedDate { get; set; }
-        public DateTime ExpiryDate { get; set; }
+        public DateTime DueDate { get; set; }
     }
 }
