@@ -8,8 +8,9 @@ namespace ToDoList2018
 {
     class ToDo
     {
-        public string ListItem { get; set; }
-
-        
+        public string TaskID { get; set; }
+        public string TaskDescription { get; set; }
+        public DateTime CreatedDate { get; set; }
+        public DateTime ExpiryDate { get; set; }
     }
 }
