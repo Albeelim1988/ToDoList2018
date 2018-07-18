@@ -47,6 +47,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="bin\Debug\ToDoList2018.exe.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -54,6 +55,16 @@
       <Project>{2daa2aaa-8f85-40c8-aea0-7f4730b06cae}</Project>
       <Name>ToDoList2018</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll" />
+    <Content Include="bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll" />
+    <Content Include="bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll" />
+    <Content Include="bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll" />
+    <Content Include="bin\Debug\TestToDo.dll" />
+    <Content Include="bin\Debug\TestToDo.pdb" />
+    <Content Include="bin\Debug\ToDoList2018.exe" />
+    <Content Include="bin\Debug\ToDoList2018.pdb" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
