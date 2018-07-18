@@ -20,8 +20,6 @@ namespace TestToDo
 
             Assert.AreEqual(expectedID, test.TaskID);
             Assert.AreEqual(expectedDes, test.TaskDescription);
-            Assert.AreEqual(expectedDate, test.CreatedDate);
-            Assert.AreEqual(expectedDate, test.ExpiryDate);
         }
     }
 }
