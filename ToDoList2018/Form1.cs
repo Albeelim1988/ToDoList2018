@@ -16,5 +16,16 @@ namespace ToDoList2018
         {
             InitializeComponent();
         }
+
+        private void newTaskBtn_Click(object sender, EventArgs e)
+        {
+            string uniqueTaskID = DateTime.Now.ToString("YYYYMMDD-HHmmssfff");
+
+            string taskDescription = textBox1.Text;
+
+            DateTime dateCreated = DateTime.Now;
+
+            DateTime dateExpiry = dateTimePicker1.Value;
+        }
     }
 }
